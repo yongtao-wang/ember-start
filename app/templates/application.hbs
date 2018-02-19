@@ -1,3 +1,28 @@
-<h1>Ember Webpage</h1>
-
-{{outlet}}
+<div class="container">
+  <div class="menu">
+    {{#link-to "index"}}
+      <h1>
+        LinkedIn
+      </h1>
+    {{/link-to}}
+    <div class="links">
+      <table>
+        <th>
+          <td>
+            {{#link-to "about"}}
+              About
+            {{/link-to}}
+          </td>
+          <td>
+            {{#link-to "contact"}}
+              Contact
+            {{/link-to}}
+          </td>
+        </th>
+      </table>
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
