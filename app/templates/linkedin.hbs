@@ -5,13 +5,12 @@
     Ember driven<br>
     Listing product info
   </p>
-  <hr>
+  {{#link-to "about" class="button"}}
+    About Us
+  {{/link-to}}
   <p>
     {{#each model as |li-product|}}
       {{product-list product=li-product}}
     {{/each}}
   </p>
-  {{#link-to "about" class="button"}}
-    About Us
-  {{/link-to}}
 </div>
