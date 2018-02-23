@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('li-product', 'Unit | Model | li product', {
+moduleForModel('products', 'Unit | Model | products', {
   // Specify the other units that are required for this test.
   needs: []
 });
